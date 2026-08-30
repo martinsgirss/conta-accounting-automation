@@ -1,0 +1,20 @@
+# Secrets — never commit
+credentials.json
+token.json
+*.env
+.env*
+*_credentials.json
+*_token.json
+*api_key*
+*.pem
+id_rsa*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
